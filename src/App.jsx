@@ -6,14 +6,14 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 text-gray-900">
+    <div className="min-h-screen bg-gradient-to-b from-[#030712] via-[#0a0f1f] to-black text-white">
       <Navbar />
       <main>
         <Hero />
         <Work />
         <Expertise />
         <Contact />
-        <footer className="py-10 text-center text-sm text-gray-500">© {new Date().getFullYear()} Marcellini — All rights reserved.</footer>
+        <footer className="py-12 text-center text-sm text-white/50">© {new Date().getFullYear()} Marcellini — All rights reserved.</footer>
       </main>
     </div>
   )
